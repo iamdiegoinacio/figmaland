@@ -1,0 +1,157 @@
+
+/*FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*COLORS PATTERN*/
+
+/*global colors*/
+$primary-color: #EF2779;
+$secondary-color: #7834BE;
+$tertiary-color: #38A3F1;
+$quaternary-color: #252B42;
+$quintenary-color: #374754;
+
+$primary-neutral-color: #fff;
+$secondary-neutral-color: #f5f5f5;
+
+$primary-text-color: #252B42;
+$secondary-text-color: #374754;
+
+$section-color: #252B42;
+
+
+/*SPECIFIC COLORS*/
+$contact-background: #D6EBFF;
+
+/*FONT PATTERN*/
+$font: 'Roboto', 'Arial', 'sans-serif';
+
+/*SECTION PATTERN*/
+@mixin section-pattern{
+    background: $section-color;
+    height: 1000px;
+    position: relative;
+}
+
+/*SCROLL PATTERN*/
+html {
+    scroll-behavior: smooth;
+  }
+
+/*BTN TRY PATTERN*/
+@mixin text-btn-pattern{
+    font-size: 1.375em;
+    font-family:'Roboto';
+    font-weight: 700;
+}
+
+@mixin btn-pattern($choice-btn){
+    border-radius: 40px;
+    padding: 15px 40px 10px 40px;
+    border: none;
+
+    @if $choice-btn == 'blue-btn'{
+        margin: 0 auto;
+        display: block;
+    }
+}
+ 
+.btn-try{
+    @include btn-pattern('');
+    background: $primary-neutral-color;
+}
+
+.btn-try-blue{
+    @include btn-pattern('blue-btn');
+    background: $tertiary-color;
+    color: $primary-neutral-color;
+}
+
+.btn-try h3{
+    @include text-btn-pattern;
+    color: $tertiary-color;
+}
+
+.btn-try-blue h3{
+    @include text-btn-pattern;
+    color: $primary-neutral-color;
+}
+
+
+/*TITLE PATTERN*/
+@mixin text-pattern($size){
+    font-family: $font;
+    color: $primary-neutral-color;
+    letter-spacing: 0.2px;
+    line-height: 1.2em;
+
+    @if $size == 3.5{
+        font-weight: 900;
+        font-size: 3.5em;
+    }
+
+    @else if $size == 2.875{
+        font-weight: 400;
+        font-size: 2.875em;
+        text-align: center;
+    }
+
+    @else if $size == 1.375{
+        font-weight: 700;
+        font-size: 1.375em;
+        text-align: center;
+    }
+
+    @else if $size == 1{
+        font-weight: 700;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    @else if $size == 0.75{
+        font-weight: 700;
+        font-size: 0.75em;
+        text-align: center;
+    }
+
+    @else if $size == 1.125{
+        font-weight: 400;
+        font-size: 1.125em;
+        text-align: center;
+    }
+
+    @else if $size == 1.1{
+        font-weight: 400;
+        font-size: 1.0em;
+        text-align: center; 
+    }
+}
+
+
+h1{
+    @include text-pattern(3.5)
+}
+
+h2{
+    @include text-pattern(2.875);
+}
+
+h3{
+    @include text-pattern(1.375);
+}
+
+h4{
+    @include text-pattern(1);
+}
+
+h5{
+    @include text-pattern(0.75);
+}
+
+p{
+    @include text-pattern(1.125);
+}
+
+a{
+    @include text-pattern(1.1);
+}

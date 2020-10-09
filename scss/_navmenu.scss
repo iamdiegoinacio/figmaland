@@ -1,0 +1,64 @@
+
+
+@mixin text-nav{
+    font-family: 'Roboto';
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+/*NAV MENU*/
+
+.navbar-toggler-icon{
+    background: url(../img/mobile/toggle.svg) no-repeat !important;
+    width: 30px;
+    border: none;
+    margin-top: 30px;
+}
+
+header{
+    border: none;
+    padding-top: 50px;
+}
+
+.nav-link {
+    @include text-nav;
+    margin-right: 40px;
+}
+
+.nav-item a{
+    font-size: 1.2em;
+}
+
+
+a:hover {
+    color: #fff;
+}
+
+.input-sub-nav {
+    padding: 15px 0px 15px 39px;
+    border-radius: 40px;
+}
+
+.input-sub-nav::placeholder{
+    color: $primary-text-color;
+}
+
+.btn-sub-nav{
+    color: $primary-color;
+    border-color: $primary-neutral-color;
+    background-color: $primary-neutral-color;
+    vertical-align: middle;
+    padding: 5px 15px 5px 15px;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+.btn-sub-nav:hover{
+    color: $primary-color;
+}

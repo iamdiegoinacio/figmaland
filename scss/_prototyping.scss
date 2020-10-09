@@ -1,0 +1,30 @@
+
+
+/*PROTOTYPING SECTION*/
+.proto{
+    @include section-pattern;
+    height: 1200px;
+}
+
+.proto h2{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.proto h4{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.proto button{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 150px;
+}
+
+.proto img{
+    margin: 0 auto;
+    display: block;
+}

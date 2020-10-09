@@ -1,0 +1,69 @@
+
+
+.pricing{
+    @include section-pattern;
+    height: 700px;
+}
+
+.pricing h2{
+    margin-bottom: 40px;
+}
+
+.pricing h4{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.pricing-item{
+    display: block;
+    border-radius: 20px;
+    max-width: 320px;
+    height: 380px;
+    background: $primary-neutral-color;
+    margin: 60px 30px;
+}
+
+.pricing-item h3{
+    color: $quaternary-color;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.pricing-item h5{
+    color: $quintenary-color;
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+.pricing-item h1{
+    color: $quaternary-color;
+    float: left;
+    margin-left: 20px;
+}
+
+.btn-pricing{
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 10px 80px;
+}
+
+.btn-pricing-business{
+    background: $primary-neutral-color;
+    color: $primary-color;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 10px 80px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.pricing-item-business{
+    background: linear-gradient(39.97deg, $primary-color 0.79%, $secondary-color 79.29%);
+    border: 1px solid #dedede;
+}
+
+.pricing-item-business h1, .pricing-item-business h3, .pricing-item-business h5{
+    color: $primary-neutral-color;
+}
+

@@ -1,0 +1,321 @@
+/*SMARTPHONE RESPONSIVE STYLE*/
+
+@media only screen and (max-width: 959px) {
+
+    /*NAV-MENU*/
+    .navbar {
+        padding: .5rem .0em 0.5em 1rem;
+    }
+
+    .nav-link {
+        margin-right: 0px;
+    }
+    
+    /*Title introdution*/
+    header {
+        border: none;
+        padding-top: 20px;
+    }
+    .flag-none-mb {
+        display: none;
+    }
+    .title {
+        background: url(../img/mobile/background-mobile.png) no-repeat;
+    }
+    .title-text-lg {
+        display: none;
+    }
+    .title-content {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+    .title-container{
+        padding-left: 0px;
+        padding-right: 0px !important;
+    }
+    .title-container h4 {
+        margin-bottom: 40px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .screen-title-img-mb {
+        max-width: 98%;
+        display: inline-block;
+        text-align: center;
+    }
+    /*Features*/
+    .features {
+        padding-top: 50px;
+        height: 1200px;
+    }
+    .features-item {
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+        margin-bottom: 50px;
+    }
+    .features-content-img {
+        margin-top: 20px;
+    }
+    /*Proto*/
+    .proto {
+        height: 700px;
+    }
+    .proto img {
+        max-width: 350px;
+    }
+    .proto button {
+        margin-bottom: 80px;
+    }
+    /*Partners*/
+    .partners {
+        height: 1500px;
+    }
+    .partners h5 {
+        margin-top: 50px;
+    }
+    .partners-container {
+        margin-top: 50px;
+    }
+    /*Testimonials*/
+    .testimonials h2 {
+        padding-top: 100px;
+    }
+    .testimonials h4 {
+        max-width: 300px;
+        margin: 50px auto;
+    }
+    .testimonials {
+        height: 800px;
+    }
+    /*Pricing*/
+    .pricing {
+        height: 1600px;
+    }
+    .pricing-item {
+        display: block;
+        border-radius: 20px;
+        max-width: 320px;
+        height: 380px;
+        margin: 30px auto;
+    }
+    .pricing h4 {
+        margin-bottom: 60px;
+    }
+    /*CONTACT*/
+    .contact {
+        height: 1500px;
+    }
+    .contact-mb-icon {
+        position: relative;
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .contact-mb-icon img {
+        margin-right: 20px;
+    }
+    .contact-mb-item {
+        max-width: 350px;
+        position: relative;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .contact-mb-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .contact-content {
+        margin-top: 80px;
+    }
+    .contact-mb-item h5 {
+        display: inline-block;
+        max-width: 280px;
+        margin-top: 60px;
+        color: $quaternary-color;
+        text-align: left;
+    }
+    .contact-us-form {
+        width: 350px;
+        height: 600px;
+        display: block;
+        margin: 0 auto;
+    }
+    #form-text-area {
+        display: block;
+        width: 290px;
+        height: 250px;
+    }
+    .contact-button {
+        float: left;
+    }
+    .contact-us-form-item {
+        max-width: 400px;
+        width: 290px;
+        height: 50px;
+    }
+    .contact-mb-flag {
+        display: none;
+    }
+    .contact-mb-container {
+        text-align: center;
+    }
+    .mb-contact-item {
+        width: 100%;
+        height: 250px;
+        display: inline-block;
+    }
+    .contact-mb-social {
+        height: 100px;
+    }
+    .contact-mb-social img {
+        margin: 0 auto;
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .contact-mb-info {
+        padding-left: 40px;
+    }
+    .contact-mb-info img {
+        float: left;
+        display: block;
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .contact-mb-info h5 {
+        color: #252B42;
+        max-width: 400px;
+        text-align: left;
+        margin-bottom: 60px;
+        padding-top: 8px;
+    }
+    .contact-mb-info h5:nth-of-type(1) {
+        max-width: 300px;
+    }
+    /*FOOTER*/
+    .footer-pages {
+        max-width: none;
+        text-align: center;
+    }
+    .footer-pages h3 {
+        text-align: center;
+    }
+    .footer-pages a {
+        text-align: center;
+    }
+    .footer-map iframe {
+        width: 350px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-map {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    .footer-map iframe {
+        border-radius: 20px;
+    }
+    .footer-contact {
+        margin: 20px auto 60px auto;
+        padding-right: 10px;
+    }
+    .footer-contact {
+        max-width: 350px;
+    }
+    .footer-contact h5:nth-of-type(1) {
+        margin-top: 0px;
+    }
+    .footer-contact img:nth-of-type(2) {
+        margin-top: 10px;
+    }
+}
+
+/*TABLET RESPONSIVE STYLE*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /*Title introdution*/
+    .flag-none-md {
+        display: none;
+    }
+    .title {
+        background: url(../img/mobile/background-tablet.png) no-repeat;
+        height: 900px;
+        background-size: cover;
+    }
+    .title-container h1 {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .title-container h4 {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .screen-title-img-mb {
+        position: relative;
+        lefT: -150px;
+        transform: scale(1.3);
+        margin-top: 20px;
+    }
+    .features {
+        height: 1000px;
+    }
+    .pricing {
+        height: 1300px;
+    }
+    .contact-mb-info {
+        padding-left: 150px;
+    }
+    /*FOOTER*/
+    .footer-contact {
+        margin: 20px auto 60px auto;
+    }
+    .footer-map iframe {
+        width: 600px;
+        height: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-map {
+        margin: 20px 0px 10px 0px;
+    }
+    /*CONTACT*/
+    .contact-us-form {
+        width: 550px;
+        height: 600px;
+        display: block;
+        margin: 0 auto;
+    }
+    #form-text-area {
+        display: block;
+        width: 500px;
+        height: 250px;
+    }
+    .contact-button {
+        float: left;
+    }
+    .contact-us-form-item {
+        width: 350px;
+        height: 50px;
+    }
+}
+
+/*DESKTOP RESPONSIVE STYLE*/
+
+@media only screen and (min-width: 1024px) and (max-width: 3000px) {
+    .title-text-mb {
+        display: none;
+    }
+    .contact-mb {
+        display: none;
+    }
+    .flag-none-lg {
+        display: none;
+    }
+}

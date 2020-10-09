@@ -1,0 +1,97 @@
+.contact{
+    @include section-pattern;
+    background: $contact-background !important;
+    padding-top: 100px;
+}
+
+.contact h2{
+    color: $primary-text-color !important;
+}
+
+.contact h4{
+    color: $primary-text-color !important;
+    max-width: 300px;
+    margin: 40px auto 40px auto;
+}
+
+.contact-us-form{
+    width: 500px;
+    height: 600px;
+    background-color: $primary-neutral-color;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.contact-us-form h4{
+    margin-bottom: 30px;
+}
+
+.contact-us-form-item{
+    display: inline-block;
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+    border: none;
+    background-color: $secondary-neutral-color;
+    width: 430px;
+    height: 50px;
+}
+
+.contact-us-message{
+    background: $secondary-neutral-color;
+    padding-bottom: 200px;
+}
+
+#form-text-area{
+    background-color: #f5f5f5a9;
+    border:none;
+    display: block;
+    width: 430px;
+    height: 250px;
+    margin: 0 auto 20px auto;
+}
+
+.contact-button{
+    border-radius: 20px;
+    background: $primary-color;
+    padding: 10px 40px;
+    border: none;
+    font-family: 'Roboto';
+    color: #fff;
+    float: right;
+}
+
+
+.contact-content-dir{
+    padding-top: 100px;
+}
+
+.contact-content img{
+    float: left;
+    display: block;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+
+}
+.contact-content h5{
+    color: #252B42;
+    max-width: 400px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.contact-content h5:nth-child(4){
+    margin-top: 75px;
+    display: block;
+}
+
+.contact-content h5:nth-child(6){
+    margin-top: 75px;
+    display: block;
+}
+
+.contact-content img:nth-child(n+7):nth-child(n-9){
+    margin-right: 30px;
+    margin-top: 20px;
+}

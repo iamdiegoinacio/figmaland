@@ -1,0 +1,40 @@
+/*FEATURES SECTION*/
+.features{
+    @include section-pattern;
+    padding-top: 300px;
+    z-index: -2;
+}
+
+.features h3{
+    margin-bottom: 20px;
+}
+
+.features h2{
+    margin-bottom: 20px;
+}
+
+.features h4{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.features-content{
+    margin-top: 100px;
+}
+
+.features-content-h3{
+    max-width: 250px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.features-content-img{
+    float: left;
+    margin-right: 10px;
+}
+
+.features-content-p{
+    max-width: 300px;
+    text-align: left;
+}

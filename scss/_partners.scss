@@ -1,0 +1,39 @@
+
+
+/*Partners section*/
+.partners{
+    @include section-pattern;
+    height: 1200px;
+}
+
+.partners h2{
+    margin-bottom: 20px;
+}
+
+.partners h4{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.partners-container{
+    margin-top: 100px;
+}
+
+.partners-content{
+    margin-bottom: 100px;
+}
+
+.partners-content h5{
+    margin-bottom: 20px;
+}
+
+.partners-content img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.partners-content p{
+    max-width: 200px;
+    margin: 0 auto;
+}
