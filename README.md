@@ -17,5 +17,3 @@
 ## SOBRE O SCRIPT
 SCRIPT na pasta js/gulpfile.js, acesse o terminal e digite gulp para iniciar o script, qualquer alteração feita no SCSS vai ser compilada, minimificada e inserida no arquivo style.css localizado na pasta CSS. 
 
-## Ver prévia do site:
-<a href="https://iamdiegoinacio.github.io/sitefigland/">Visualizar página</a>
